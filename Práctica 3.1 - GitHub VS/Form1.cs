@@ -21,7 +21,7 @@ namespace Práctica_3._1___GitHub_VS
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (cbUrgente.Checked)
+            if (Urgente.Checked)
                 tipoTelegrama = 'u';
             //Obtengo el número de palabras que forma el telegrama
             numPalabras = textoTelegrama.Length;
@@ -49,6 +49,11 @@ namespace Práctica_3._1___GitHub_VS
         }
 
         private void txtTelegrama_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
